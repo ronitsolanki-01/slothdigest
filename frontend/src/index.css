@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lichen: #eef1ea;
+  --color-bark: #2b2a26;
+  --color-moss: #3e6b4e;
+  --color-moss-dark: #2f5640;
+  --color-leaf: #dce7d8;
+}
+
+body {
+  background: var(--color-lichen);
+  color: var(--color-bark);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
